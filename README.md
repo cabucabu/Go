@@ -1,4 +1,5 @@
-# Go
-run follow terminal 
-    - Set-ExecutionPolicy -Scope CurrentUse
-    - nodemon --exec go run .\index.go
+//set run follow change 
+    - add permision 
+        Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+    - use script 
+        nodemon --exec go run .\index.go
